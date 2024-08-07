@@ -3,7 +3,7 @@ name: Deploy Alterações via FTP
 on:
 push:
 branches:
-- main
+- developer
 
 workflow_dispatch: # Para rodar manualmente
 
