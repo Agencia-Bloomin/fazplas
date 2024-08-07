@@ -1,24 +1,23 @@
 name: Deploy Alterações via FTP
 
 on:
-push:
-branches:
-- developer
-
-workflow_dispatch: # Para rodar manualmente
+  push:
+    branches:
+      - developer
+  workflow_dispatch: # Permite rodar manualmente
 
 jobs:
-deploy:
-runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
 
-steps:
-- name: Checkout repository
-uses: actions/checkout@v2
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-- name: FTP Deploy
-uses: SamKirkland/FTP-Deploy-Action@4.0.0
-with:
-server: ${{ secrets.FTP_HOST_BLOOMIN_PROJETOS }}
-username: ${{ secrets.FTP_USER_BLOOMIN_PROJETOS }}
-password: ${{ secrets.FTP_PASSWORD_BLOOMIN_PROJETOS }}
-server-dir: /fazplas/
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.FTP_HOST_BLOOMIN_PROJETOS }}
+          username: ${{ secrets.FTP_USER_BLOOMIN_PROJETOS }}
+          password: ${{ secrets.FTP_PASSWORD_BLOOMIN_PROJETOS }}
+          server-dir: /fazplas/
