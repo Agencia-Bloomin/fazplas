@@ -10,7 +10,7 @@
 define("CONF_TAG_BASE", "http://localhost/celyna/fazplas/07082024/");
 
 
-define("CONF_SITE_NAME", "Fazplas");
+define("CONF_SITE_NAME", "Fazplás");
 define("CONF_SITE_PHONE", "(11) 1234-5678");
 define("CONF_SITE_PHONE_LINK", "+551112345678");
 define("CONF_SITE_WHATSAPP", "(11) 93375-2730");

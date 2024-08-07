@@ -86,7 +86,7 @@ $descriptionHome = 'Saiba como ampliar seus negocios com a gente!';
   <base href="<?= CONF_TAG_BASE?>">
 
   <!-- Title -->
-  <title><?= !empty($title) ? $title : $titleHome  ?><?= $isHome = !isset($isHome) ? ' | Template Vanilla' : ''; ?></title>
+  <title><?= !empty($title) ? $title : $titleHome  ?><?= $isHome = !isset($isHome) ? ' | Fazplás' : ''; ?></title>
   <!-- Charset -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
