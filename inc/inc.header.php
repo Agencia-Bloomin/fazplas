@@ -78,20 +78,24 @@
                         <a class="nav-link" href="./">Home</a>
                     </li>
                     <li class="menu-item">
-                        <a class="nav-link" href="empresa">Empresa</a>
+                        <a class="nav-link" href="javascript:void(0)">Empresa</a>
                     </li>
                     <li class="menu-item has-children">
-                        <a class="nav-link" href="produtos" data-toggle="sub-menu">Produtos <i class="plus"></i></a>
+                        <a class="nav-link" href="javascript:void(0)" data-toggle="sub-menu">Produtos <i class="plus"></i></a>
                         <ul class="sub-menu">
-                            <li class="menu-item"><a href="produto-interna">Produto 1</a></li>
-                            <li class="menu-item"><a href="produto-interna2">Produto 2</a></li>
-                            <li class="menu-item"><a href="produto-interna3">Produto 3</a></li>
-                            <li class="menu-item"><a href="produto-interna4">Produto 4</a></li>
+                            <li class="menu-item"><a href="javascript:void(0)">PS (PSAI, Poliestireno Alto Impacto)</a></li>
+                            <li class="menu-item"><a href="javascript:void(0)">PET Chapas e bobinas</a></li>
+                            <li class="menu-item"><a href="javascript:void(0)">PETG Chapas</a></li>
+                            <li class="menu-item"><a href="javascript:void(0)">Polionda, Plastionda, Ondaplast</a></li>
+                            <li class="menu-item"><a href="javascript:void(0)">Plástico Bolha</a></li>
+                            <li class="menu-item"><a href="javascript:void(0)">Polietileno</a></li>
                             <li class="menu-item has-children has-children-2">
-                                <a class="nav-link" href="javascript:void(0)" data-toggle="sub-menu"> Sub menu <i class="plus"></i></a>
+                                <a class="nav-link" href="javascript:void(0)" data-toggle="sub-menu"> Sub menu <i
+                                        class="plus"></i></a>
                                 <ul class="sub-menu sub-menu-2">
-                                    <li class="menu-item"><a href="javascript:void(0)">Sub sub menu 1</a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)">Sub sub menu 2</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">PSAI</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">PSAI Multicamadas</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">PS Cristal</a></li>
                                 </ul>
                             </li>
                         </ul>
