@@ -55,9 +55,9 @@
                             <div class="footer-cap">
                                 <ul>
                                     <li><a href="./">Home</a></li>
-                                    <li><a href="empresa">Empresa</a></li>
-                                    <li><a href="produtos">Produtos</a> </li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Empresa</a></li>
+                                    <li><a href="#">Produtos</a> </li>
+                                    <li><a href="#">Serviços</a></li>
                                     <li><a href="contato">Contato</a></li>
                                     <li><a href="mapa-do-site">Mapa do Site</a></li>
                                 </ul>
@@ -84,6 +84,12 @@
                                         <?php echo CONF_SITE_EMAIL; ?>
                                     </a>
                                 <?php endif; ?>
+                                <?php if (!empty(CONF_SITE_EMAIL_2)) : ?>
+                                    <a class="dn_btn" href="mailto:<?php echo CONF_SITE_EMAIL_2; ?>">
+                                        <i class="fas icon-envelope"></i>
+                                        <?php echo CONF_SITE_EMAIL_2; ?>
+                                    </a>
+                                <?php endif; ?>
                                 <?php if (!empty(CONF_SITE_PHONE_LINK)) : ?>
                                     <a class="dn_btn" href="tel:<?php echo CONF_SITE_PHONE_LINK; ?>">
                                         <i class="icon-solid icon-phone"></i>
@@ -94,6 +100,18 @@
                                     <a class="dn_btn" href="<?php echo CONF_SITE_WHATSAPP_LINK; ?>" target="_blank">
                                         <i class="fab icon-whatsapp"></i>
                                         <?php echo CONF_SITE_WHATSAPP; ?>
+                                    </a>
+                                <?php endif; ?>
+                                <?php if (!empty(CONF_SITE_WHATSAPP_LINK_2)) : ?>
+                                    <a class="dn_btn" href="<?php echo CONF_SITE_WHATSAPP_LINK_2; ?>" target="_blank">
+                                        <i class="fab icon-whatsapp"></i>
+                                        <?php echo CONF_SITE_WHATSAPP_2; ?>
+                                    </a>
+                                <?php endif; ?>
+                                <?php if (!empty(CONF_SITE_WHATSAPP_LINK_3)) : ?>
+                                    <a class="dn_btn" href="<?php echo CONF_SITE_WHATSAPP_LINK_3; ?>" target="_blank">
+                                        <i class="fab icon-whatsapp"></i>
+                                        <?php echo CONF_SITE_WHATSAPP_3; ?>
                                     </a>
                                 <?php endif; ?>
                             </div>

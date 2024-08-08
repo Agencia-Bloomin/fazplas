@@ -37,14 +37,14 @@
             </div>
         </div>
     </div>
-    <div class="form-group text-center">
+    <div class="text-center">
         <div class="<?= $pageId == 'single-product' ? 'btn-prod' : 'd-flex' ?>">
             <button type="submit" class="btn <?= $pageId == 'single-product' ? 'mb-3' : '' ?>">
-                <span>Enviar por E-mail</span>
+                Enviar por E-mail
             </button>
             <?php if(!empty(CONF_SITE_WHATSAPP_LINK)): ?>
             <a href='javascript:void(0)' class="btn whats-form" id="meuZap" data-zap="<?=CONF_SITE_WHATSAPP_LINK?>">
-                <span>Enviar por Whatsapp</span>
+                Enviar por Whatsapp
             </a>
             <?php endif; ?>
         </div>

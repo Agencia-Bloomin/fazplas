@@ -8,7 +8,7 @@ async function runSwiperConfigs() {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
-        delay: 2500,
+        delay: 6500,
         disableOnInteraction: false,
       },
       pagination: {
@@ -17,30 +17,6 @@ async function runSwiperConfigs() {
       },
     });
 
-    //====================================== Brand Carousel ==============================================
-    var swiper = new Swiper(".brandSwiper", {
-      slidesPerView: 2,
-      spaceBetween: 10,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      loop: true,
-      breakpoints: {
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
-        992: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-        1200: {
-          slidesPerView: 5,
-          spaceBetween: 50,
-        },
-      },
-    });
     //============================================ Product Carousel ===========================================
     var swiper = new Swiper(".productSwiper", {
       slidesPerView: 1,
@@ -59,10 +35,10 @@ async function runSwiperConfigs() {
           slidesPerView: 2,
         },
         992: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         1200: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
       },
     });

@@ -30,7 +30,7 @@ header {
             }
 
             &:hover {
-                color: $theme-color;
+                color: $theme-color2;
             }
         }
 
@@ -40,7 +40,7 @@ header {
                 transition: all 300ms linear 0s;
 
                 &:hover {
-                    color: $theme-color;
+                    color: $theme-color2;
                 }
 
                 i {
@@ -178,12 +178,12 @@ header {
                             }
 
                             &:hover {
-                                color: $theme-color;
+                                color: $theme-color2;
 
                                 .plus {
                                     &::before,
                                     &:after {
-                                        background-color: $theme-color;
+                                        background-color: $theme-color2;
                                     }
                                 }
                             }
@@ -191,13 +191,13 @@ header {
                             &:hover::after,
                             &.active-nav::after {
                                 width: 100%;
-                                background: $theme-color;
+                                background: $theme-color2;
                             }
                         }
 
                         .sub-menu {
                             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-                            width: 250px;
+                            width: 265px;
                             position: absolute;
                             left: 0;
                             top: 100%;
@@ -221,7 +221,7 @@ header {
                                     transition: all 0.4s ease;
 
                                     &:hover {
-                                        color: $theme-color;
+                                        color: $theme-color2;
                                         padding-left: 4px;
                                     }
 

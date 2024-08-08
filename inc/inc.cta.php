@@ -1,28 +1,21 @@
-<section class="cta-area">
+<div class="cta-area">
     <div class="container">
         <div class="row align-items-center justify-content-between">
-            <div class="col-xl-8 col-lg-8 col-md-8 mb-3">
-                <div class="cta-caption">
+            <div class="col-lg-6 col-md-12 mb-3">
+                <div class="section-title border">
+                    <span>Tire suas dúvidas</span>
                     <h2>Fale Conosco</h2>
-                    <p>Estamos sempre prontos para melhor atendê-los.</p>
+                    <div class="divider"></div>
                 </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi earum perspiciatis architecto
+                    dolorum
+                    voluptates veritatis, repellat odit natus nemo nihil!</p>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+            <div class="col-lg-6 col-md-12">
                 <div class="row justify-content-center">
-                    <?php if(!empty(CONF_SITE_EMAIL)): ?>
-                    <div class="col-md-6 col-sm-3 col-4 d-flex justify-content-center">
-                        <a href="mailto:<?php echo CONF_SITE_EMAIL;?>" class="btn"><i
-                                class="fas icon-envelope"></i></a>
-                    </div>
-                    <?php endif; ?>
-                    <?php if(!empty(CONF_SITE_WHATSAPP_LINK)): ?>
-                    <div class="col-md-6 col-sm-3 col-4 d-flex justify-content-center">
-                        <a href="<?php echo CONF_SITE_WHATSAPP_LINK;?>" target="_blank"
-                            class="btn btn-radius"><i class="fab icon-whatsapp"></i></a>
-                    </div>
-                    <?php endif; ?>
+                    <?php include 'inc/inc.form.php'?>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>

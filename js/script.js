@@ -100,6 +100,29 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+//====================================== Buttons Effect ==========================================
+const allButtons = document.querySelectorAll('.btn');
+
+allButtons.forEach(button => {
+  button.addEventListener('mouseenter', function(e) {
+
+    let mousePosition = e.target.getBoundingClientRect();
+
+    let x = e.clientX - mousePosition.left;
+    let y = e.clientY - mousePosition.top;
+
+    let effect = document.createElement('span');
+
+    effect.style.left = x + 'px';
+    effect.style.top = y + 'px';
+    this.appendChild(effect)
+
+    setTimeout(() => {
+      effect.remove()
+    }, 1000)
+  });
+});
+
 
 // ========== JS services Tabs =========
 const tabList = document.getElementById('myTab');
